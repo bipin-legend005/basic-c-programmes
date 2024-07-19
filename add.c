@@ -1,11 +1,9 @@
 #include<stdio.h>
 void main()
-{
-	int num1,num2,sum;
-	  num1=200;
-	  num2=900;
-	  sum=num1+num2;
-	
-	printf("sum of %d and %d is %d",num1,num2,sum);
+{ 
+int a,b,c;
+printf("Enter a,b,c");
+scanf("%d,%d,%d",&a,&b,&c);
+printf("sum=",a+b+c);
 	 
 }
